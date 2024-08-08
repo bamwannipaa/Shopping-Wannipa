@@ -11,6 +11,7 @@
     width: 100%;
     height: 7vw;
     background: linear-gradient(125deg, #f0db81, #e0842e);
+    width: 1600px;
   }
   
   .nav-container {
@@ -61,6 +62,7 @@
     padding: 15px;
     text-align: center;
     background-color: #ecae73;
+    width: 1600px;
   }
   .cartcount {
     position: absolute;
@@ -142,6 +144,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     text-align: center;
+    width: 1600px;
   }
   * a{
     text-decoration: none;
@@ -177,6 +180,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    width: 1600px;
   }
   h1{
     text-align: center;
@@ -270,3 +274,4 @@ p{
   color: #964707;
   letter-spacing: 5%;
 }
+
