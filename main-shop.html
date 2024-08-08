@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&W Shop</title>
+    <link rel="stylesheet" type="text/css" href="main-shop.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+          <div class="cnLogo">
+            <img src="Logo.png" class="logonav">
+          </div>
+          <div class="home">
+            <ul class="navul">
+              <a link href="index.html">Home</a>
+              <a href="register.html">Register</a>
+            </ul>
+          </div>
+    
+          </div>
+        </div>
+      </nav>
+    <form id="form-input" onsubmit="event.preventDefault(); FormSubmit();" autocomplete="off">
+        <h1>B&W Shop</h1>
+        <div>
+            ชื่อ-สกุล ผู้ซื้อ  <br>
+            <input type="text" id="txtName" required  placeholder="กรุณากรอกชื่อ-นามสกุล">
+        </div>
+        <div>
+            รหัสสินค้า <br>
+            <input type="text" id="txtNick" required placeholder="กรุณากรอกรหัสสินค้า">
+        </div>
+        <div>
+            ที่อยู่จัดส่ง  <br>
+            <input type="text" id="txtAddress" required placeholder="กรุณากรอกที่อยู่">
+        </div>
+        <div>
+            เบอร์โทรศัพท์  <br>
+            <input type="text" id="txtTel" required placeholder="กรุณากรอกเบอร์โทรศัพท์">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="บันทึกข้อมูล" id="submit">
+            <input type="reset" value="ยกเลิก" id="cencel">
+        </div>
+        <br>
+        <br>
+
+            <table id="tblContact" border="1">
+                <thead>
+                    <tr>
+                        <th>ชื่อ-สกุล ผู้ซื้อ</th>
+                        <th>รหัสสินค้า</th>
+                        <th>ที่อยู่จัดส่ง</th>
+                        <th>เบอร์โทรศัพท์</th>
+                        <th>แก้ไข</th>
+                        <th>ลบ</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td id="name"></td>
+                        <td id="pass"></td>
+                        <td id="address"></td>
+                        <td id="tel"></td>
+                        <td id="edit"></td>
+                        <td id="delet"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div>
+                <a link href="index.html"></a>
+            </div>
+        
+    </form>
+
+    <script src="main-shop.js"></script>
+</body>
+</html>
